@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.detail_img {
+  border: 5px solid beige;
+}
+.detail_title {
+  color: antiquewhite;
+}
+.detail_summary {
+  color: rgb(15, 32, 40);
+  font-weight: 500;
+}
+.detail_movies {
+  margin-top: 50px;
+  text-align: center;
+}
+.detail_url {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(189, 138, 36);
+}
+.detail_url:hover {
+  color: rgb(40, 62, 145);
+  text-decoration: underline;
+}
+.detail_download_url {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(189, 138, 36);
+}
+.detail_download_url:hover {
+  color: rgb(40, 62, 145);
+  text-decoration: underline;
+}
