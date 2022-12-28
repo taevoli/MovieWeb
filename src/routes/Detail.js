@@ -33,13 +33,6 @@ function Detail() {
           <a href={movies.url} className={style.detail_url}>
             Detail Information Link🔎
           </a>
-          {movies.torrents.map((t) => (
-            <div key={t.hash}>
-              <a href={t.url} className={style.detail_download_url}>
-                DownLoad(first:720p, second:1080p)
-              </a>
-            </div>
-          ))}
           <p className={style.detail_summary}>
             <div style={{ fontSize: '20px', fontWeight: 'bold' }}>
               Summary🔔:
