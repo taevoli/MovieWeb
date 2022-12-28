@@ -29,7 +29,10 @@ function Detail() {
           <div>
             <img className={style.detail_img} src={movies.medium_cover_image} />
           </div>
-          <h1 className={style.detail_title}>{movies.title}</h1>
+          <h1 className={style.detail_title}>
+            {movies.title}{' '}
+            <div className={style.detail_rating}>⭐ {movies.rating}/10</div>
+          </h1>
           <a href={movies.url} className={style.detail_url}>
             Detail Information Link🔎
           </a>

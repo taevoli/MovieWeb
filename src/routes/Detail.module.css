@@ -38,3 +38,7 @@
   color: rgb(40, 62, 145);
   text-decoration: underline;
 }
+.detail_rating {
+  font-size: 25px;
+  color: goldenrod;
+}

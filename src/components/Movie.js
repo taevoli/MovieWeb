@@ -12,7 +12,7 @@ function Movie({ id, coverImg, title, year, rating, summary, genres }) {
         <div className={style.movie_title}>
           {title}({year})
         </div>
-        <div>⭐ {rating}/10</div>
+
         <ul className={style.movie_genres}>
           {genres && genres.map((g) => <li key={g}>{g}</li>)}
         </ul>
